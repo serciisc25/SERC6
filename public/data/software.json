@@ -1,0 +1,144 @@
+
+[
+  {
+    "id": "numerical-and-libraries",
+    "name": "Numerical & Libraries",
+    "items": [
+      {
+        "name": "Matlab",
+        "version": "2016 onwards",
+        "description": "A high-level language and interactive environment for numerical computation, visualization, and programming.",
+        "detailsPageTitle": "Matlab TAH Model – Total Academic Headcount License (TAH)",
+        "sections": [
+            {
+                "type": "text",
+                "title": "Overview",
+                "content": "TAH MODEL: Allows campus-wide access on university-owned computers to all faculty, staff and students.\n\nTAH Campus licenses support two activation types:",
+                "list": [
+                    "**TAH Designated Computer** (Individual / Personal Laptop)",
+                    "**TAH Network Concurrent User** (Concurrent / Department Desktops)"
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Which Activation Type Should I Use?",
+                "headers": ["Is the computer connected to the IISc network?", "Choose"],
+                "rows": [
+                    [
+                        { "text": "YES", "icon": "Wifi", "color": "green", "bold": true },
+                        { "text": "Concurrent License – Activation", "bold": true }
+                    ],
+                    [
+                         { "text": "NO", "icon": "Monitor", "color": "red", "bold": true },
+                         { "text": "Designated Computer – Activation", "bold": true }
+                    ]
+                ],
+                "note": "Faculty and staff are also entitled to install MathWorks software on their personally owned computers for their own use."
+            },
+            {
+                "type": "steps",
+                "title": "Installation Instructions",
+                "intro": "1. Users must fill the online form:",
+                "buttons": [
+                    { "label": "Students Form", "url": "#", "color": "blue" },
+                    { "label": "Employees’ Form", "url": "#", "color": "orange" },
+                    { "label": "Lab Form (Faculty)", "url": "#", "color": "green" }
+                ],
+                "steps": [
+                    "Fill joining date + MAC address → Click **“Submit”**",
+                    "Wait for confirmation email from: [sysadmin.serc@iisc.ac.in](mailto:sysadmin.serc@iisc.ac.in)",
+                    "Admin enrolls user in MathWorks account",
+                    "Admin adds MAC address + Operating System to the license server",
+                    "User receives email from MathWorks → temporary password",
+                    "Reset password → login to MathWorks → accept terms",
+                    "Begin MATLAB installation"
+                ],
+                "images": [
+                    { "caption": "Activation Process Screenshot" },
+                    { "caption": "MathWorks Login Page Screenshot" }
+                ],
+                "note": "Users are requested to send the PDF file to sysadmin.serc@iisc.ac.in for further processing."
+            },
+            {
+                "type": "grid",
+                "title": "MATLAB Versions",
+                "gridItems": [
+                    "MATLAB R2020b and above", "MATLAB R2019b", "MATLAB R2017b", "MATLAB R2019a", "MATLAB R2017a", "MATLAB R2020b", "MATLAB R2018b", "MATLAB R2016b", "MATLAB R2020a", "MATLAB R2018a", "MATLAB R2016a"
+                ],
+                "gridLink": { "text": "Activating expiring MATLAB license for the next academic year", "url": "#" }
+            },
+            {
+                "type": "text",
+                "title": "Helpdesk",
+                "content": "For any queries, raise a ticket in the helpdesk or please contact System Administrator[Manjula Sai Priya], #103,SERC."
+            }
+        ]
+      },
+      {
+        "name": "Mathematica",
+        "version": "13.2",
+        "description": "A system for technical computing, used for numerical applications, symbolic manipulation, and data visualization.",
+        "sections": [
+             {
+                "type": "text",
+                "title": "About Mathematica",
+                "content": "Mathematica is a modern technical computing system spanning most areas of technical computing — including neural networks, machine learning, image processing, geometry, data science, visualizations, and others. The system is used in many scientific, engineering, mathematical, and computing fields."
+            },
+            {
+                "type": "table",
+                "title": "System Requirements",
+                "headers": ["Component", "Requirement"],
+                "rows": [
+                    [
+                        { "text": "Processor", "bold": true },
+                        { "text": "Intel Core i7 or equivalent" }
+                    ],
+                    [
+                         { "text": "Disk Space", "bold": true },
+                         { "text": "19 GB" }
+                    ],
+                    [
+                        { "text": "System Memory", "bold": true },
+                        { "text": "16 GB Recommended" }
+                    ]
+                ]
+            }
+        ]
+      },
+      {
+        "name": "Maple",
+        "version": "2023",
+        "description": "A symbolic and numeric computing environment as well as a multi-paradigm programming language."
+      }
+    ]
+  },
+  {
+    "id": "dev-and-graphics-tools",
+    "name": "Dev & Graphics Tools",
+    "items": [
+      {
+        "name": "MNova",
+        "description": "MNova provides NMR, LC/GC/MS processing, visualization, and automated analysis in a modern graphical interface."
+      },
+      {
+        "name": "Intel Compiler",
+        "version": "v10.1",
+        "description": "Intel Fortran and C compilers for creating high-performance applications."
+      },
+      {
+        "name": "Intel Parallel Studio",
+        "description": "A comprehensive development suite for HPC, vectorization, multithreading, and memory optimization."
+      }
+    ]
+  },
+  {
+    "id": "specialty-packages",
+    "name": "Specialty Packages",
+    "items": [
+      {
+        "name": "Tecplot",
+        "description": "Tecplot is an advanced engineering visualization tool designed for CFD, simulations, and scientific data analysis."
+      }
+    ]
+  }
+]

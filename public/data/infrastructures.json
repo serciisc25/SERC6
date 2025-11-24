@@ -1,0 +1,23 @@
+
+[
+    { 
+        "name": "PARAM Pravega", 
+        "image": "https://picsum.photos/600/400?random=8", 
+        "description": "PARAM Pravega, part of the National Supercomputing Mission (NSM), is one of the most powerful supercomputers in India. It is equipped with a heterogeneous architecture comprising both CPU and GPU nodes to support a wide range of scientific and engineering applications." 
+    },
+    { 
+        "name": "Roddam Narasimha Cluster", 
+        "image": "https://picsum.photos/600/400?random=60", 
+        "description": "A specialized high-performance computing facility established in honor of the late Prof. Roddam Narasimha. It is tailored to support advanced simulations in aerospace engineering, atmospheric sciences, and fluid dynamics." 
+    },
+    { 
+        "name": "NVIDIA DGX-1 Cluster", 
+        "image": "https://picsum.photos/600/400?random=52", 
+        "description": "A deep learning system architected for high throughput and high interconnect bandwidth. The core of the system is a complex of Eight Tesla V100 GPUs connected in the hybrid cube-mesh NVLink network topology to maximize neural network training performance." 
+    },
+    { 
+        "name": "NVIDIA DGX-H100 Cluster", 
+        "image": "https://picsum.photos/600/400?random=56", 
+        "description": "The universal system for all AI infrastructure, from analytics to training to inference. It packs 8 NVIDIA H100 Tensor Core GPUs and is designed to maximize high-throughput performance for the next wave of AI discovery." 
+    }
+]

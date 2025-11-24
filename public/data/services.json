@@ -1,0 +1,23 @@
+
+[
+  {
+    "id": "hpc-access",
+    "name": "HPC Access",
+    "description": "SERC provides access to state-of-the-art High-Performance Computing (HPC) systems, including the PARAM Pravega supercomputer. We offer computational resources to academic researchers, national R&D labs, and industries to solve complex problems in science and engineering. Access is granted through a peer-reviewed proposal process, ensuring that resources are allocated to high-impact research."
+  },
+  {
+    "id": "consultancy",
+    "name": "Consultancy",
+    "description": "Our team of experts offers consultancy services to help researchers and organizations effectively utilize HPC resources. We provide guidance on code parallelization, performance optimization, workflow management, and adapting scientific applications to our computing environment. Our goal is to help you achieve maximum efficiency and scalability for your computational tasks."
+  },
+  {
+    "id": "training",
+    "name": "Training",
+    "description": "SERC is committed to nurturing the next generation of computational scientists. We regularly conduct workshops, seminars, and training programs on various aspects of high-performance computing, including parallel programming (MPI, OpenMP), GPU computing (CUDA), big data analytics, and scientific software usage. These programs are designed for students, researchers, and professionals."
+  },
+  {
+    "id": "helpdesk",
+    "name": "Helpdesk",
+    "description": "For queries related to use of SERC services,\nUsers in IISc Network\n(Preferable) Use  HelpDesk : This will help in tracking the queries of Supercomputer, accessing FAQs and many other features.\n(Less preferable): Email helpdesk.serc@auto.iisc.ac.in with a suitable subject line.\nUsers external to IISc Network\nProcedure to login \nFor Support / Query’s email to:   helpdesk.serc@auto.iisc.ac.in with a suitable subject line."
+  }
+]

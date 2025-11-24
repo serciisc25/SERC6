@@ -1,0 +1,8 @@
+
+[
+    { "name": "High-Performance Computing", "description": "Developing algorithms and systems for large-scale scientific computations.", "icon": "Cpu" },
+    { "name": "AI & Machine Learning", "description": "Exploring deep learning, data analytics, and intelligent systems.", "icon": "BrainCircuit" },
+    { "name": "Computational Biology", "description": "Applying computational techniques to solve biological problems.", "icon": "Dna" },
+    { "name": "Systems & Networking", "description": "Research on next-generation network protocols and distributed systems.", "icon": "Network" },
+    { "name": "Data Visualization", "description": "Creating novel techniques for visualizing complex scientific data.", "icon": "BarChart" }
+]

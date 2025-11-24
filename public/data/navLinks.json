@@ -1,0 +1,94 @@
+
+[
+    { "name": "Home", "path": "/" },
+    {
+        "name": "About", "path": "/about", "subLinks": [
+            { "name": "Overview", "path": "/about#overview" },
+            { "name": "Director’s Message", "path": "/about#message" }
+        ]
+    },
+    {
+        "name": "Research", "path": "/research", "subLinks": [
+            { "name": "Research Areas", "path": "/research#areas" },
+            { "name": "Publications", "path": "/research#publications" },
+            { "name": "Research Groups", "path": "/research#groups" }
+        ]
+    },
+    {
+        "name": "Systems", "path": "/systems/param-pravega", "subLinks": [
+            { 
+                "name": "HPC Supercomputer", 
+                "path": "/systems/param-pravega",
+                "subLinks": [
+                    { "name": "PARAM Pravega", "path": "/systems/param-pravega" }
+                ]
+            },
+            { 
+                "name": "Mid & Low Range Cluster", 
+                "path": "/systems/mid-low-range-cluster",
+                "subLinks": [
+                    { "name": "Roddam Narasimha Cluster", "path": "/systems/roddam-narasimha-cluster" },
+                    { "name": "Delta Cluster", "path": "/systems/delta-cluster" }
+                ]
+            },
+            { 
+                "name": "Deep Learning", 
+                "path": "/systems/dgx-1",
+                "subLinks": [
+                    { "name": "NVIDIA DGX-1", "path": "/systems/dgx-1" },
+                    { "name": "NVIDIA DGX H100", "path": "/systems/dgx-h100" }
+                ]
+            },
+            { 
+                "name": "Visualization Server", 
+                "path": "/systems/visualization-server" 
+            },
+            { 
+                "name": "File Server", 
+                "path": "/systems/file-server",
+                "subLinks": [
+                    { "name": "SERC Storage Overview", "path": "/systems/file-server" }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Software", "path": "/software", "subLinks": [
+            { 
+                "name": "Numerical & Libraries", 
+                "path": "/software#numerical-and-libraries",
+                "subLinks": [
+                    { "name": "Matlab", "path": "/software/matlab" },
+                    { "name": "Mathematica", "path": "/software/mathematica" },
+                    { "name": "Maple", "path": "/software/maple" }
+                ]
+            },
+            { 
+                "name": "Dev & Graphics Tools", 
+                "path": "/software#dev-and-graphics-tools",
+                "subLinks": [
+                    { "name": "MNova", "path": "/software/mnova" },
+                    { "name": "Intel Compiler", "path": "/software/intel-compiler" },
+                    { "name": "Intel Parallel Studio", "path": "/software/intel-parallel-studio" }
+                ]
+            },
+            { 
+                "name": "Specialty Packages", 
+                "path": "/software#specialty-packages",
+                "subLinks": [
+                    { "name": "Tecplot", "path": "/software/tecplot" }
+                ]
+            }
+        ]
+    },
+     {
+        "name": "Services", "path": "/services", "subLinks": [
+            { "name": "HPC Access", "path": "/services#hpc-access" },
+            { "name": "Consultancy", "path": "/services#consultancy" },
+            { "name": "Training", "path": "/services#training" },
+            { "name": "Helpdesk", "path": "/services#helpdesk" }
+        ]
+    },
+    { "name": "People", "path": "/people" },
+    { "name": "News & Events", "path": "/news" }
+]

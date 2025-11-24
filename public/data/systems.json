@@ -1,0 +1,294 @@
+
+{
+  "paramPravega": {
+    "name": "PARAM Pravega",
+    "image": "https://picsum.photos/1200/600?random=50",
+    "overview": "PARAM Pravega, part of the National Supercomputing Mission (NSM), is one of the most powerful supercomputers in India. It is designed to cater to the computational needs of the national research community and is equipped with a heterogeneous architecture comprising both CPU and GPU nodes to support a wide range of scientific and engineering applications.",
+    "specifications": [
+      { "label": "Peak Performance", "value": "3.3 Petaflops" },
+      { "label": "Processor", "value": "Intel Xeon Cascade Lake 8268" },
+      { "label": "Accelerator", "value": "NVIDIA V100 GPU" },
+      { "label": "Total CPU Cores", "value": "122,880" },
+      { "label": "Total System Memory", "value": "450 TB" },
+      { "label": "Storage", "value": "11 PB (Lustre Parallel File System)" },
+      { "label": "Interconnect", "value": "Mellanox HDR InfiniBand (100 Gbps)" }
+    ],
+    "usagePolicy": "Access to PARAM Pravega is available to researchers across India through a national peer-review process. Proposals are invited periodically through the NSM portal. IISc researchers can also apply for access through the internal SERC portal for developmental and small-scale production runs."
+  },
+  "midLowRangeCluster": {
+    "name": "Mid & Low Range Clusters",
+    "image": "https://picsum.photos/1200/600?random=51",
+    "overview": "SERC maintains several high-performance computing (HPC) clusters to support the diverse computational needs of the IISc research community. These clusters are built with different processor architectures and are suitable for a wide variety of workloads, from serial jobs to moderately parallel applications.",
+    "specifications": [
+      { "label": "Total Nodes", "value": "256+" },
+      { "label": "Processor Family", "value": "AMD EPYC & Intel Xeon Scalable" },
+      { "label": "Cores per Node", "value": "32 to 128" },
+      { "label": "Memory per Node", "value": "128 GB to 512 GB" },
+      { "label": "Interconnect", "value": "Gigabit Ethernet & HDR InfiniBand" },
+      { "label": "Operating System", "value": "CentOS / Rocky Linux" }
+    ],
+    "usagePolicy": "The general-purpose HPC clusters are available to all IISc faculty, staff, and students for their computational research needs. Account requests can be submitted via the SERC helpdesk. Resource allocation is managed by the SLURM workload manager."
+  },
+  "roddamNarasimhaCluster": {
+    "name": "Roddam Narasimha Cluster",
+    "image": "https://picsum.photos/1200/600?random=60",
+    "overview": "The Roddam Narasimha Cluster is a specialized high-performance computing facility established in honor of the late Prof. Roddam Narasimha. It is tailored to support advanced simulations in aerospace engineering, atmospheric sciences, and fluid dynamics, reflecting Prof. Narasimha's lifelong research interests. The cluster provides a robust environment for solving complex computational fluid dynamics (CFD) problems and weather modeling tasks.",
+    "hardwareArchitecture": {
+        "title": "System Architecture and Configuration",
+        "nodes": [
+            {
+                "name": "Master Node – 1 Nos",
+                "specs": [
+                    "2 X Intel® Xeon® Gold 6248R Processor 3.00Ghz 24C/48T 35.75M Cache.",
+                    "2 X 32GB DDR4 2933 ECC REG Total = 384GB RAM in Balanced Configuration ie 8GB Per Core.",
+                    "40 X 16TB NL SAS HDD 7.2K RPM 3.5” Hard Disk on RAID 6 Usable 500TB."
+                ]
+            },
+            {
+                "name": "Compute Node – 29 Nos",
+                "specs": [
+                    "2 X Intel® Xeon® Gold 6248R Processor 3.00Ghz 24C/48T 35.75M Cache.",
+                    "12 X 32GB DDR4 2933 ECC REG Total = 384GB RAM in Balanced Configuration ie 8GB Per Core.",
+                    "1TB of disk space"
+                ]
+            },
+            {
+                "name": "High Memory Node – 1 Nos",
+                "specs": [
+                    "2 X Intel® Xeon® Gold 6248R Processor 3.00Ghz 24C/48T 35.75M Cache.",
+                    "12 X 128GB DDR4 2933 ECC REG Total = 1536GB RAM in Balanced Configuration ie Min 32GB Per Core.",
+                    "1TB of disk space"
+                ]
+            },
+            {
+                "name": "V100 GPU Node – 2 Nos",
+                "specs": [
+                    "2 X Intel® Xeon® Gold 6248R Processor 3.00Ghz 24C/48T 35.75M Cache.",
+                    "12 X 32GB DDR4 2933 ECC REG Total = 384GB RAM in Balanced Configuration ie 8GB Per Core.",
+                    "1TB of disk space"
+                ]
+            },
+            {
+                "name": "SSD CPU Node – 8 Nos",
+                "specs": [
+                    "2 X Intel® Xeon® Gold 6248R Processor 3.00Ghz 24C/48T 35.75M Cache.",
+                    "12 X 32GB DDR4 2933 ECC REG Total = 384GB RAM in Balanced Configuration ie 8GB Per Core."
+                ]
+            },
+            {
+                "name": "Interconnection",
+                "specs": [
+                    "1 Gigabit Ethernet connectivity using 48 port Netgear switch.",
+                    "10 Gigabit Ethernet connectivity using 48 port Supermicro switch.",
+                    "Each Compute node has 1TB SATA HDDs of localscratch space.",
+                    "Node Interconnect: All nodes of the cluster are connected with InfiniBand HBAs through one 40- port Mellanox Quantum™ HDR 200Gb/s InfiniBand Smart Switch."
+                ]
+            }
+        ]
+    },
+    "specifications": [
+      { "label": "Processor Model", "value": "Intel® Xeon® Gold 6248R (3.00Ghz, 24C/48T)" },
+      { "label": "Total Core Count", "value": "Approx. 2000+ Cores" },
+      { "label": "Interconnect", "value": "Mellanox Quantum™ HDR 200Gb/s InfiniBand" },
+      { "label": "Storage", "value": "500TB Usable RAID 6 Storage" },
+      { "label": "Total Nodes", "value": "41 Nodes" }
+    ],
+    "softwareOverview": {
+        "os": "Linux x86_64 Platform",
+        "links": [
+            { "name": "Programming Environment", "path": "/software#compilers-and-debuggers" },
+            { "name": "Softwares", "path": "/software" }
+        ]
+    },
+    "usagePolicy": "This cluster is primarily reserved for research groups working in the domains of fluid dynamics and atmospheric sciences. Usage is allocated based on project requirements and scientific merit."
+  },
+  "deltaCluster": {
+    "name": "Delta Cluster",
+    "image": "https://picsum.photos/1200/600?random=61",
+    "overview": "The Delta Cluster is a versatile workhorse designed to handle a high volume of serial and small-to-medium scale parallel jobs. It serves as an entry-level to mid-range system for students and researchers to develop, debug, and test their codes before scaling them up to larger supercomputers like PARAM Pravega. Its heterogeneous node configuration allows for flexible scheduling of diverse workloads.",
+    "specifications": [
+      { "label": "Architecture", "value": "x86_64 Commodity Cluster" },
+      { "label": "Node Configuration", "value": "Mix of High-Memory and Standard Compute Nodes" },
+      { "label": "Interconnect", "value": "Gigabit Ethernet & Low-Latency InfiniBand" },
+      { "label": "Scheduler", "value": "PBS Pro / SLURM" }
+    ],
+    "usagePolicy": "The Delta Cluster is open to all registered SERC users. It operates on a fair-share scheduling policy to ensure equitable access for all departments. Short-duration jobs and development work are prioritized on this system."
+  },
+  "dgx1": {
+    "name": "NVIDIA DGX-1",
+    "image": "/serc-logo/serc-logo.png",
+    "overview": "The NVIDIA DGX-1 is a deep learning system, architected for high throughput and high interconnect bandwidth to maximize neural network training performance. The core of the system is a complex of Eight Tesla V100 GPUs connected in the hybrid cube-mesh NVLink network topology. In addition to the eight GPUs, DGX-1 includes two CPUs for boot, storage management, and deep learning framework coordination. DGX-1 is built into a three-rack-unit (3U) enclosure that provides power, cooling, network, multi-system interconnect, and SSD file system cache, balanced to optimize throughput and deep learning training time. NVLink is an energy-efficient, high-bandwidth interconnect that enables NVIDIA GPUs to connect to peer GPUs or other devices within a node at an aggregate bi-directional bandwidth of up to 300 GB/s per GPU: over nine times that of current PCIe Gen3 x16 interconnections. The NVLink interconnect and the DGX-1 architecture’s hybrid cube-mesh GPU network topology enables the highest achievable data-exchange bandwidth between a group of eight Tesla V100 GPUs.",
+    "specifications": [
+        { "label": "GPUs", "value": "8 x Tesla V100" },
+        { "label": "GPU Memory", "value": "256 GB total system" },
+        { "label": "CPU", "value": "Dual 20-core Intel Xeon E5-2698 v4 2.2 GHz" },
+        { "label": "NVIDIA CUDA cores", "value": "40,960" },
+        { "label": "NVIDIA Tensor cores", "value": "5,120" },
+        { "label": "System Memory", "value": "512 GB 2.133 GHz DDR4 RDIMM" },
+        { "label": "Storage", "value": "4 x 1.92 TB SSD RAID-0" },
+        { "label": "Network", "value": "Dual 10 GbE" },
+        { "label": "Performance (Mixed Precision)", "value": "1 Peta FLOPS" },
+        { "label": "Single Precision (Single GPU)", "value": "Up to 7.8 TFLOPS" },
+        { "label": "Single Precision (Total 8 GPUs)", "value": "Up to 62.4 TFLOPS" },
+        { "label": "Double Precision (Single GPU)", "value": "Up to 15.7 TFLOPS" },
+        { "label": "Double Precision (Total 8 GPUs)", "value": "Up to 125.6 TFLOPS" },
+        { "label": "Deep Learning (Single GPU)", "value": "Up to 125 TFLOPS" },
+        { "label": "Deep Learning (Total 8 GPUs)", "value": "Up to 1 PFLOPS" }
+    ],
+    "usagePolicy": "The DGX-1 is available for deep learning and AI research projects. Access is granted through a proposal process to ensure resources are utilized for high-impact and innovative research.",
+    "softwareOverview": {
+      "os": "Ubuntu 16.04 Linux OS – Linux x86_64 Platform",
+      "links": [
+        { "name": "Deep Learning Frameworks", "path": "/software#application-software" },
+        { "name": "Softwares", "path": "/software" },
+        { "name": "Job submission System", "path": "#guide" }
+      ]
+    },
+    "jobSubmissionGuide": {
+        "title": "Job Submission & Usage Guide",
+        "sections": [
+             {
+                "title": "Accessing the system",
+                "content": [
+                    "The NVIDIA-DGX1 cluster has one login node, nvidia-dgx, through which the user can access the cluster and submit jobs.",
+                    "The machine is accessible for login using ssh from inside IISc network.",
+                    "ssh <computational_userid>@nvidia-dgx.serc.iisc.ac.in"
+                ]
+            },
+             {
+                "title": "Basic steps for better utilization of DGX-1",
+                "content": [
+                    "Usually users are landed to their home space after login, can check the current directory location by using the below command.",
+                    "pwd",
+                    "The home directories are usually limited to storage space of 1.5GB",
+                    "Users are also created directory on DGX-1 machine, which can be used for storing their data, the path will be /localscratch/<computational_userid>",
+                    "cd /localscratch/<computational_userid>",
+                    "It is important that users take backup of their raid directory as SERC clears localscratch space every 2weeks, having frequent backups is safer in case of such data loss.",
+                    "As each user has special requirements of software and packages, our team as enabled docker which helps users to set up their own packages, software or environments necessary for executing their jobs.",
+                    "can click on the below link to know how to create a customized docker container.",
+                    "The docker image suggest to create a user inside docker with same details as available in DGX-1 so that files access and permissions will remain same during job execution.",
+                    "It is important that users take backup of docker file frequently, so that it would be easier to recreate docker images with docker storage cleared by SERC team every 2weeks."
+                ]
+            },
+            {
+                "title": "NOTE",
+                "isNote": true,
+                "content": [
+                    "“Running jobs without SLURM will lead to blocking of the computational account”",
+                    "Please note that the “/localscratch/” space is meant for saving your job outputs for a temporary period only. The localscratch space data older than 14 days (2 Weeks) will be deleted.",
+                    "Please note that the docker system handling docker images older than 14 days (2 Weeks) will be deleted.",
+                    "SERC does not maintain any backups of the localscratch space data, and hence will not be responsible for any data loss."
+                ]
+            }
+        ]
+    }
+  },
+  "dgxH100": {
+    "name": "NVIDIA DGX H100",
+    "image": "https://picsum.photos/1200/600?random=56",
+    "overview": "The NVIDIA® DGX™ H100 system is the universal system for all AI infrastructure, from analytics to training to inference. It packs 8 NVIDIA H100 Tensor Core GPUs and is powered by the NVIDIA Base Command™ and NVIDIA AI Enterprise software suite.\n\nDGX H100 is the fourth generation of the world’s first purpose-built AI infrastructure, fully optimized for DGX software and scalable AI. The system is designed to maximize high-throughput performance and accelerate the next wave of AI discovery, from large language models to recommender systems and life sciences.\n\nThe DGX H100 system features a highly optimized architecture, integrating the latest compute, networking, and storage technologies to provide a unified platform for AI development and deployment.",
+    "hardwareArchitecture": {
+        "title": "Hardware Components Overview",
+        "nodes": [
+            {
+                "name": "GPU Subsystem",
+                "specs": [
+                    "8x NVIDIA H100 Tensor Core GPUs",
+                    "640 GB Total GPU Memory",
+                    "4x NVIDIA NVSwitch™ (Gen 3) Interconnect",
+                    "900 GB/s Bidirectional Bandwidth per GPU",
+                    "7.2 TB/s Total Bidirectional Bandwidth"
+                ]
+            },
+            {
+                "name": "CPU Subsystem",
+                "specs": [
+                    "Dual Intel® Xeon® Platinum 8480C Processors",
+                    "112 Total Cores (56 cores per socket)",
+                    "2 TB DDR5 System Memory",
+                    "PCIe Gen5 Architecture"
+                ]
+            },
+             {
+                "name": "Networking Subsystem",
+                "specs": [
+                    "4x OSFP Ports (8x 400Gb/s InfiniBand/Ethernet) for Compute Fabric",
+                    "2x QSFP112 Ports (4x 200Gb/s InfiniBand/Ethernet) for Storage/IO",
+                    "1x Dual-port 10/25/100/200GbE Ethernet for Management"
+                ]
+            },
+            {
+                "name": "Storage Subsystem",
+                "specs": [
+                    "OS Storage: 2x 1.92 TB NVMe SSDs (RAID 1)",
+                    "Internal Storage: 30.72 TB NVMe SSDs (8x 3.84 TB)",
+                    "High-throughput capability for massive datasets"
+                ]
+            }
+        ]
+    },
+    "specifications": [
+        { "label": "AI Performance (FP8)", "value": "32 PetaFLOPS" },
+        { "label": "Server Height", "value": "6U Rackmount" },
+        { "label": "Max Power Consumption", "value": "10.2 kW" },
+        { "label": "System Weight", "value": "~130 kg (287 lbs)" },
+        { "label": "Operating Temp", "value": "5°C to 30°C (41°F to 86°F)" },
+        { "label": "Cooling", "value": "Air-cooled with high-performance fans" }
+    ],
+    "usagePolicy": "The DGX H100 is a premium high-performance resource reserved for large-scale AI research projects requiring significant computational power, such as Large Language Model (LLM) training and foundation model development. Usage is granted via a competitive proposal process.",
+    "softwareOverview": {
+      "os": "NVIDIA DGX OS (based on Ubuntu 22.04)",
+      "links": [
+        { "name": "NVIDIA AI Enterprise", "path": "#" },
+        { "name": "Base Command", "path": "#" }
+      ]
+    },
+     "jobSubmissionGuide": {
+        "title": "Job Submission Guide",
+        "sections": [
+             {
+                "title": "Access and Queues",
+                "content": [
+                    "Access is strictly controlled via SLURM partitions specific to H100 nodes.",
+                    "Users must utilize the `h100` partition for submitting jobs.",
+                    "`sbatch -p h100 --gres=gpu:8 my_job.sh`"
+                ]
+            },
+            {
+                "title": "Note",
+                "isNote": true,
+                "content": [
+                    "Due to high demand, job walltimes are strictly enforced.",
+                    "Always check your quota before submitting large jobs."
+                ]
+            }
+        ]
+    }
+  },
+  "visualizationServer": {
+    "name": "Visualization Server",
+    "image": "https://picsum.photos/1200/600?random=57",
+    "overview": "SERC's Visualization Server is a dedicated high-end graphics system designed to handle post-processing and remote visualization of large datasets generated by supercomputers. It enables researchers to interactively explore complex 3D models and simulations without moving massive data to local workstations.",
+    "specifications": [
+        { "label": "GPU", "value": "2 x NVIDIA RTX A6000" },
+        { "label": "CPU", "value": "Dual Intel Xeon Gold" },
+        { "label": "System Memory", "value": "512 GB" },
+        { "label": "Software", "value": "ParaView, VisIt, VMD, Blender" },
+        { "label": "Remote Access", "value": "TurboVNC, VirtualGL" }
+    ],
+    "usagePolicy": "Open to all SERC users. Sessions are managed via a reservation system to ensure interactive performance."
+  },
+  "fileServer": {
+    "name": "SERC Storage Overview",
+    "image": "https://picsum.photos/1200/600?random=53",
+    "overview": "SERC's robust, multi-tier storage infrastructure is designed to handle the massive data requirements of modern research. It provides high-performance parallel storage for active computations, large-capacity object storage for bulk data, and long-term archival solutions.",
+    "specifications": [
+      { "label": "Primary Storage", "value": "11 PB Lustre Parallel File System for scratch and project data" },
+      { "label": "Secondary Storage", "value": "5 PB Ceph Object Storage for bulk data" },
+      { "label": "Backup System", "value": "Petascale Tape Library for long-term archival" },
+      { "label": "Home Directory", "value": "High-availability NFS storage with regular snapshots" },
+      { "label": "Network", "value": "100 Gbps Ethernet Backbone connecting all systems" }
+    ],
+    "usagePolicy": "All users are provided with a home directory quota. Project-specific storage on the high-performance file systems can be requested through the SERC portal, subject to approval based on research needs. Long-term archival services are available for valuable research data."
+  }
+}

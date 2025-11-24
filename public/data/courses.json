@@ -1,0 +1,5 @@
+[
+    { "code": "CS 501", "title": "High Performance Computing", "instructor": "Prof. A. Sharma", "description": "An introduction to the fundamentals of high-performance computing and parallel programming." },
+    { "code": "DS 301", "title": "Introduction to Data Science", "instructor": "Prof. R. Verma", "description": "Covers essential concepts in data science, including data manipulation, visualization, and machine learning." },
+    { "code": "AI 601", "title": "Advanced Machine Learning", "instructor": "Prof. S. Singh", "description": "Deep dive into advanced topics in machine learning, including deep learning, reinforcement learning, and graphical models." }
+]

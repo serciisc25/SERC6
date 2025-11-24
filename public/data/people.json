@@ -1,0 +1,22 @@
+{
+  "faculty": [
+    { "name": "Prof. Anirban Chakraborty", "title": "Professor", "image": "https://picsum.photos/200/200?random=10", "researchInterests": ["Computer Vision", "Machine Learning"], "email": "anirban@iisc.ac.in" },
+    { "name": "Prof. Sathish S. Vadhiyar", "title": "Professor", "image": "https://picsum.photos/200/200?random=11", "researchInterests": ["Parallel Computing", "HPC"], "email": "sathish@iisc.ac.in" },
+    { "name": "Prof. Chirag Jain", "title": "Assistant Professor", "image": "https://picsum.photos/200/200?random=12", "researchInterests": ["Computational Genomics", "Algorithms"], "email": "chirag@iisc.ac.in" },
+    { "name": "Prof. Yogesh Simmhan", "title": "Associate Professor", "image": "https://picsum.photos/200/200?random=13", "researchInterests": ["Distributed Systems", "Big Data"], "email": "yogesh@iisc.ac.in" }
+  ],
+  "scientificStaff": [
+    { "name": "Dr. Rajesh Kumar", "title": "Principal Research Scientist", "image": "https://picsum.photos/200/200?random=20", "researchInterests": ["System Software", "HPC Libraries"], "email": "rajeshk@iisc.ac.in" },
+    { "name": "Dr. Priya Singh", "title": "Senior Research Scientist", "image": "https://picsum.photos/200/200?random=21", "researchInterests": ["Data Analytics", "Cloud Computing"], "email": "priyas@iisc.ac.in" }
+  ],
+  "technicalStaff": [
+    { "name": "Mr. Vikram Mehta", "title": "Chief System Administrator", "image": "https://picsum.photos/200/200?random=30", "email": "vikramm@iisc.ac.in" },
+    { "name": "Ms. Sunita Rao", "title": "System Engineer", "image": "https://picsum.photos/200/200?random=31", "email": "sunitarao@iisc.ac.in" },
+    { "name": "Mr. Arjun Desai", "title": "Network Administrator", "image": "https://picsum.photos/200/200?random=32", "email": "arjund@iisc.ac.in" }
+  ],
+  "administrativeStaff": [
+    { "name": "Mrs. Lakshmi Iyer", "title": "Administrative Officer", "image": "https://picsum.photos/200/200?random=40", "email": "lakshmi@iisc.ac.in" },
+    { "name": "Mr. Anand Pillai", "title": "Office Assistant", "image": "https://picsum.photos/200/200?random=41", "email": "anandp@iisc.ac.in" }
+  ]
+
+}
